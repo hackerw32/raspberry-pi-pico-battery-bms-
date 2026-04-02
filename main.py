@@ -234,7 +234,7 @@ print("=" * 40)
 
 # Αρχικοποίηση I2C Slave
 i2c_slave = I2CResponder(
-    i2c_id=0,
+    i2c_device_id=0,
     sda_gpio=I2C_SDA_PIN,
     scl_gpio=I2C_SCL_PIN,
     responder_address=SBS_ADDRESS
